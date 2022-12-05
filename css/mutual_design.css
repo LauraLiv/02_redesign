@@ -1,9 +1,35 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*************** img *********************/
+
 img {
   width: 100%;
   display: block;
 }
 
+/*************** body *********************/
+
+body {
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*************** main *********************/
+
 main {
   max-width: 1200px;
   margin-inline: auto;
+}
+
+p {
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
