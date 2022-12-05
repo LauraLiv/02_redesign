@@ -31,5 +31,9 @@ main {
 h1 {
   font-style: normal;
   font-weight: 300;
-  color: black;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 100;
 }
