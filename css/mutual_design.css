@@ -24,30 +24,50 @@ body {
 /*************** header *********************/
 
 header {
-  font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
-header .logo {
-  font-size: 25px;
-}
-
-header nav ul {
+nav {
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding: 0.5rem;
   gap: 30px;
   overflow-x: auto;
-  text-align: end;
+  float: left;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 90px;
+  margin-top: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 a {
   text-decoration: none;
   font-weight: 500;
   color: black;
+  letter-spacing: 0.0555556em;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 900;
+  color: black;
+  font-size: 35px;
+  letter-spacing: 0.0555556em;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  margin-right: 70px;
+  margin-left: 70px;
 }
 
 /*************** main *********************/
