@@ -1,0 +1,20 @@
+.ig,
+.mobil {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  margin-block: 1rem;
+}
+.ikon {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+footer,
+.footer {
+  padding-top: 2rem;
+  background-color: #595959;
+  font-size: 20px;
+  text-align: center;
+}
