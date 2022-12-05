@@ -15,10 +15,10 @@ img {
 /*************** body *********************/
 
 body {
-  color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: brandon-grotesque, sans-serif;
 }
 
 /*************** main *********************/
@@ -29,7 +29,6 @@ main {
 }
 
 h1 {
-  font-family: brandon-grotesque, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: black;
