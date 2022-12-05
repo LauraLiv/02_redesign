@@ -29,5 +29,7 @@ main {
 }
 
 p {
-  font-style: ;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
