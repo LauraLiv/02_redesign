@@ -75,8 +75,8 @@ p {
 /*************** footer *********************/
 .ig,
 .mobil {
-  height: 40px;
-  width: 40px;
+  height: 25px;
+  width: 25px;
   padding: 0;
   margin-block: 1rem;
 }
