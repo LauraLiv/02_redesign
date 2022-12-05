@@ -20,6 +20,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
 
 /*************** main *********************/
 
@@ -33,3 +34,5 @@ h1 {
   font-style: normal;
   font-weight: 300;
 }
+=======
+>>>>>>> 65cab069d145d2100e03b518ad4d1dc5b76684ac
