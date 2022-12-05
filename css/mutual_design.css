@@ -1,28 +1,22 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*************** img *********************/
+
 img {
   width: 100%;
   display: block;
 }
 
-main {
-  max-width: 1200px;
-  margin-inline: auto;
-}
+/*************** body *********************/
 
 body {
   color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-.ig,
-.mobil {
-  height: 40px;
-  width: 40px;
-  padding: 0;
-  margin-block: 1rem;
-}
-.ikon {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
 }
