@@ -24,11 +24,29 @@ body {
 /*************** header *********************/
 
 header {
-  color: black;
   font-size: 20px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+}
+
+header .logo {
+  font-size: 25px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0.5rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
 }
 
 /*************** main *********************/
