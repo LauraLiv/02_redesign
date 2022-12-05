@@ -1,0 +1,16 @@
+img {
+  width: 100%;
+  display: block;
+}
+
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+body {
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
