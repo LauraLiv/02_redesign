@@ -20,16 +20,3 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-/*************** main *********************/
-
-main {
-  max-width: 1200px;
-  margin-inline: auto;
-}
-
-p {
-  font-family: brandon-grotesque, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-}
