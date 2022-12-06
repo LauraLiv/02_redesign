@@ -1,0 +1,14 @@
+@media (min-width: 750px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+h1 {
+  padding-bottom: 60px;
+}
+
+p {
+  letter-spacing: 0.0555556em;
+}
