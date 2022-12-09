@@ -2,6 +2,8 @@
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-inline: 80px;
+    padding-bottom: 20px;
   }
 }
 @media (max-width: 801px) {
@@ -15,4 +17,16 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+}
+h1 {
+  padding-bottom: 60px;
+}
+
+.text_container {
+  padding-inline: 80px;
+  padding-bottom: 20px;
+}
+
+.overskrift {
+  font-weight: bold;
 }
