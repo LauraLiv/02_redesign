@@ -1,7 +1,18 @@
-@media (min-width: 850px) {
+@media (min-width: 800px) {
   .grid_1-1 {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 801px) {
+  p {
+    letter-spacing: 0.0555556em;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .billede {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
