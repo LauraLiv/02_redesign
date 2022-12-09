@@ -39,6 +39,9 @@ nav {
   overflow-x: auto;
   float: left;
 }
+.kryds {
+  display: inline;
+}
 
 ul {
   display: flex;
@@ -136,18 +139,19 @@ footer,
 }
 
 /* burgermenu */
-.container {
+#container {
   background: transparent;
   border: none;
-  min-width: 44px;
+  /* min-width: 44px;
   min-height: 44px;
   font-size: 1.1rem;
-  cursor: pointer;
+  cursor: pointer; */
   display: none;
+  text-align: right;
 }
 
 @media (max-width: 923px) {
-  .container {
+  #container {
     display: block;
   }
 
@@ -166,9 +170,16 @@ footer,
     flex-flow: column;
     flex-basis: 100%;
   }
-  .container {
-    display: inline-block;
+
+  #container {
+    display: grid;
+    justify-items: end;
     cursor: pointer;
+    width: 100%;
+  }
+
+  .main-menu.shown li {
+    text-align: end;
   }
 
   .bar1,

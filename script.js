@@ -1,9 +1,19 @@
-const btn = document.querySelector(".container");
-const menu = document.querySelector(".main-menu");
+window.addEventListener("load", sidenVises);
+let btn;
+let menu;
+
+function sidenVises() {
+  btn = document.querySelector("#container");
+  menu = document.querySelector(".main-menu");
+
+  btn.addEventListener("click", toggleMenu);
+}
 
 function toggleMenu() {
   menu.classList.toggle("shown");
   const menuShown = menu.classList.contains("shown");
+
+  btn.classList.toggle("change");
 
   if (menuShown) {
     console.log(menuShown);
@@ -12,10 +22,4 @@ function toggleMenu() {
     console.log(menuShown);
     //btn.textContent = "Menu";
   }
-}
-
-btn.addEventListener("click", toggleMenu);
-
-function myFunction(x) {
-  x.classList.toggle("change");
 }
