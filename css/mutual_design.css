@@ -38,6 +38,7 @@ nav {
   gap: 30px;
   overflow-x: auto;
   float: left;
+  padding-right: 4rem;
 }
 .kryds {
   display: inline;
@@ -144,7 +145,7 @@ footer,
   text-align: right;
 }
 
-@media (max-width: 923px) {
+@media (max-width: 838px) {
   #container {
     display: block;
   }
