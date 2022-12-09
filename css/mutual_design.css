@@ -68,8 +68,6 @@ a {
   letter-spacing: 0.0555556em;
   line-height: 1.2em;
   text-transform: uppercase;
-  margin-right: 70px;
-  margin-left: 70px;
 }
 .menu {
   padding-right: 20px;
@@ -142,10 +140,6 @@ footer,
 #container {
   background: transparent;
   border: none;
-  /* min-width: 44px;
-  min-height: 44px;
-  font-size: 1.1rem;
-  cursor: pointer; */
   display: none;
   text-align: right;
 }
@@ -192,17 +186,17 @@ footer,
     transition: 0.4s;
   }
 
-  /* Rotate first bar */
+  /* Rotater første bar */
   .change .bar1 {
     transform: translate(0, 11px) rotate(-45deg);
   }
 
-  /* Fade out the second bar */
+  /* Fadeout anden bar */
   .change .bar2 {
     opacity: 0;
   }
 
-  /* Rotate last bar */
+  /* Rotater sidste bar */
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }

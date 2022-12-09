@@ -17,9 +17,7 @@ function toggleMenu() {
 
   if (menuShown) {
     console.log(menuShown);
-    //btn.textContent = "Luk";
   } else {
     console.log(menuShown);
-    //btn.textContent = "Menu";
   }
 }
