@@ -74,6 +74,12 @@ a {
   padding-right: 20px;
 }
 
+.main-menu a:hover {
+  color: #9c9c9c;
+}
+.main-menu a {
+  color: #000;
+}
 /*************** main *********************/
 
 main {
