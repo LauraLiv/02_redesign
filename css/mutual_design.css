@@ -105,10 +105,14 @@ p {
   padding: 0;
   margin-block: 1rem;
 }
-.ikon {
+.ikon_container {
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+.ikon:hover {
+  transform: scale(1.5);
+  transition: 0.2s;
 }
 
 footer,
