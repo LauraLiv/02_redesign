@@ -7,12 +7,6 @@
   }
 }
 @media (max-width: 801px) {
-  p {
-    letter-spacing: 0.0555556em;
-    padding-bottom: 10px;
-    font-size: 20px;
-  }
-
   .billede {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -22,11 +16,20 @@ h1 {
   padding-bottom: 60px;
 }
 
-.text_container {
-  padding-inline: 80px;
-  padding-bottom: 20px;
-}
-
 .overskrift {
   font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+p {
+  letter-spacing: 0.0555556em;
+  padding-bottom: 10px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.billede {
+  padding-top: 0.5rem;
+  padding-inline: 60px;
+  padding-bottom: 20px;
 }
